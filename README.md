@@ -65,6 +65,13 @@ if _name_ == '_main_':
     ep_chassis.move(x=3, y=0, z=10, xy_speed=0.75).wait_for_completed()
 
     ep_chassis.move(x=1, y=0, z=8, xy_speed=0.75).wait_for_completed()
+    
+    ep_chassis.drive_speed(x=0,y=0.2,z=100)
+    time.sleep(20)
+    ep_chassis.drive_speed(x=0,y=0,z=0)
+    ep_led.set_led(comp="all",r=0,g=0,b=255,effect="on")
+    time.sleep(0.1)
+
 
     ep_robot.close()
 ```
