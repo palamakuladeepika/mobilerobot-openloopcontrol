@@ -71,7 +71,7 @@ if _name_ == '_main_':
 
 ![robo](./img/robomaster.png)
 
-![Github logo](robo 1.jpeg)
+![Github logo](robo_1.jpeg)
 ![Github logo](robo.jpeg)
 
 
