@@ -37,6 +37,8 @@ Finally run the robot,Then end the program.
 
 ## Program
 ```python
+#Developed by:Manoj Guna Sundar Tella.
+Ref no:21003796.
 from robomaster import robot
 import time
 
@@ -71,7 +73,7 @@ if _name_ == '_main_':
 
 ![robo](./img/robomaster.png)
 
-![Github logo](robo_1.jpeg)
+![Github logo](robo1.jpeg)
 ![Github logo](robo.jpeg)
 
 
